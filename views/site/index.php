@@ -38,11 +38,7 @@ $this->title = 'The lucky ticket';
             </div>
         <?php ActiveForm::end(); ?>
         <div class="col-lg-12 mt-3">
-            <p>Number of tickets: <?php
-                echo "<pre>";
-                var_dump($numberOfTickets2);
-                var_dump($numberOfTickets);
-                ?></p>
+            <p>Number of tickets: <?=$numberOfTickets?></p>
         </div>
     </div>
 </div>

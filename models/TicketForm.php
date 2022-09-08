@@ -2,7 +2,6 @@
 
 namespace app\models;
 
-use Yii;
 use yii\base\Model;
 
 /**
@@ -102,7 +101,7 @@ class TicketForm extends Model
         $nFromPart2PlusVariants = $this->getPlusVars($nFrom, $delimiter);
         $nToPart2PlusVariants = $this->getPlusVars($nTo, $delimiter);
 
-        $result =  111 * ((int) ($nTo / $delimiter) - $nFrom % $delimiter) + $nToPart2PlusVariants - $nFromPart2PlusVariants;
+        $result =  111 * ((int) ($nTo / $delimiter) - (int) ($nFrom / $delimiter)) + $nToPart2PlusVariants - $nFromPart2PlusVariants;
         if ($this->isLuckyTicket($nFrom)) {
             $result++;
         }
