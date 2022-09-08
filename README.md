@@ -8,7 +8,7 @@
 
 Yii 2 Lucky Ticket Task
 
-[![build](https://github.com/yiisoft/yii2-app-basic/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-basic/actions?query=workflow%3Abuild)
+[![PHP Composer](https://github.com/balemger/lucky-ticket/actions/workflows/php.yml/badge.svg?branch=main)](https://github.com/balemger/lucky-ticket/actions/workflows/php.yml)
 
 DIRECTORY STRUCTURE
 -------------------
