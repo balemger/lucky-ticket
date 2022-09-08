@@ -32,6 +32,34 @@ REQUIREMENTS
 
 The minimum requirement by this project template that your Web server supports PHP 5.6.0.
 
+INSTALLATION
+------------
+
+### Install via Composer
+
+If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
+at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
+
+You can then install this project template using the following command:
+
+~~~
+composer install
+~~~
+
+Now you should be able to access the application through the following URL, assuming `basic` is the directory
+directly under the Web root.
+
+~~~
+http://localhost/basic/web/
+~~~
+You can run using the following command::
+~~~
+yii serve --port=8888
+~~~
+
+You can then access the application through the following URL:
+
+    http://127.0.0.1:8000
 
 
 
