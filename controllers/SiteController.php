@@ -28,6 +28,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $numberOfTickets = 'XXX';
+        $numberOfTickets2 = '';
         $model = new TicketForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             $numberOfTickets = $model->getLuckyTicketCount();
